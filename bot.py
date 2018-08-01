@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-prefix = ["-"]
+prefix = [":::"]
 bot = commands.Bot(command_prefix=prefix)
 @bot.command
 async def hello():
